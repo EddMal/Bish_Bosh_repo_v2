@@ -11,15 +11,16 @@
 
 
 export function BishBosh(number,bish,bosh){
-    if ((number % bish == 0) && (number % bosh == 0)) {
+    console.log(`${number} ${bish} ${bosh}`)
+    if ((number % bish === 0) && (number % bosh === 0)) {
         //change to return
         return 'Bish-Bosh';
     }
-    else if ((number % bish) == 0) {
+    else if ((number % bish) === 0) {
         //change to return
         return 'Bish';
     } 
-    else if ((number % bosh) == 0) {
+    else if ((number % bosh) === 0) {
         //change to return
          return 'Bosh';
     }
