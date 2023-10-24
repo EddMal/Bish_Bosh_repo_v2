@@ -11,7 +11,7 @@
 
 
 export function BishBosh(number,bish,bosh){
-    if ((number % bish == 0) && (bosh % 4 == 0)) {
+    if ((number % bish == 0) && (number % bosh == 0)) {
         //change to return
         return 'Bish-Bosh';
     }
